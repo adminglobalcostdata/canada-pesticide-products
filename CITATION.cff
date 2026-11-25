@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below and credit the original source."
+title: "Canada Pesticide Products: 84,741 records, ARLA PPID"
+type: dataset
+authors:
+  - family-names: "Bousquet"
+    given-names: "Henri"
+abstract: "Search 84,741 records from Health Canada's Pesticide Product Information Database: 21,860 registered and historical pesticide products and 62,881 registration applications, with active ingredients and CAS numbers, registrant, status, use sites and pests. Embedded data, no scraping, pay per record."
+url: "https://apify.com/phonic_lily/canada-pesticide-products"
+repository-code: "https://github.com/adminglobalcostdata/canada-pesticide-products"
+date-released: 2026-11-25
+keywords:
+  - open-data
+  - dataset
+  - json
+  - jsonl
+  - apify
+  - apify-actor
+  - data-api
+  - canada

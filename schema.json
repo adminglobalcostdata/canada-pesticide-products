@@ -1,0 +1,119 @@
+{
+ "columns": [
+  {
+   "name": "record_id",
+   "type": "string",
+   "description": "Stable id: product-<registration number> or application-<application number>."
+  },
+  {
+   "name": "record_type",
+   "type": "string",
+   "description": "product or application."
+  },
+  {
+   "name": "application_number",
+   "type": "string",
+   "description": "Application number (applications only)."
+  },
+  {
+   "name": "registration_number",
+   "type": "string",
+   "description": "Pesticide registration number."
+  },
+  {
+   "name": "product_name_en",
+   "type": "string",
+   "description": "Product name (English), null if confidential."
+  },
+  {
+   "name": "product_name_fr",
+   "type": "string",
+   "description": "Product name (French), null if absent."
+  },
+  {
+   "name": "registration_status",
+   "type": "string",
+   "description": "Registration status."
+  },
+  {
+   "name": "marketing_type",
+   "type": "string",
+   "description": "Marketing type (commercial, domestic, technical active...)."
+  },
+  {
+   "name": "product_type",
+   "type": "string",
+   "description": "Product type (herbicide, insecticide...)."
+  },
+  {
+   "name": "registrant",
+   "type": "string",
+   "description": "Registrant company."
+  },
+  {
+   "name": "active_ingredients",
+   "type": "array",
+   "description": "Active ingredients (English)."
+  },
+  {
+   "name": "active_ingredient_cas",
+   "type": "array",
+   "description": "CAS numbers aligned with active_ingredients, null where unknown."
+  },
+  {
+   "name": "date_first_registered",
+   "type": "string",
+   "description": "First registration date (products)."
+  },
+  {
+   "name": "exclusive_period_start",
+   "type": "string",
+   "description": "Exclusive period start date (products)."
+  },
+  {
+   "name": "expiry_date",
+   "type": "string",
+   "description": "Registration expiry date (products)."
+  },
+  {
+   "name": "use_site_categories",
+   "type": "array",
+   "description": "Use site categories (products)."
+  },
+  {
+   "name": "sites_of_use",
+   "type": "array",
+   "description": "Sites of use (products)."
+  },
+  {
+   "name": "pests",
+   "type": "array",
+   "description": "Pests or targets (products)."
+  },
+  {
+   "name": "date_received",
+   "type": "string",
+   "description": "Application received date (applications)."
+  },
+  {
+   "name": "outcome",
+   "type": "string",
+   "description": "Application outcome (applications)."
+  },
+  {
+   "name": "purpose",
+   "type": "string",
+   "description": "Application purpose (applications)."
+  },
+  {
+   "name": "category",
+   "type": "string",
+   "description": "Application category (applications)."
+  },
+  {
+   "name": "current_or_historical",
+   "type": "string",
+   "description": "Current or Historical."
+  }
+ ]
+}
